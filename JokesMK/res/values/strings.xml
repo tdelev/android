@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Вицотека</string>
+    <string name="app_long_name">Вицотека за Андроид</string>
+    <string name="jokes_list_name">Сите вицови</string>
+    <string name="no_jokes">Нема вицови</string>
+    <string name="rate_joke_dlg_title">Колку ти се допаѓа?</string>
+    <string name="ok">Толку</string>
+    <string name="cancel">Батали</string>
+    <string name="no_rating">НР</string>
+    <string name="views">читања</string>
+    <string name="sort_by">Подреди по</string>
+    <string name="loading">Вчитувам...</string>
+    <string name="search_hint">Пребарувај вицови...</string>
+    <string name="favorites">Омилени</string>
+    <string name="jokes">Вицови</string>
+    <string name="categories">Категории</string>
+    <string name="update_progress_dlg_title">Нови вицови</string>
+    <string name="update_progress_dlg_msg_update">Превземам...</string>
+    <string name="update_progress_dlg_msg_save">Зачувувам...</string>
+    <string name="update">Преземи</string>
+    <string name="page_size">Вицови по страна</string>
+    <string name="page_size_summary">рој на вицови кои се прикажуваат на почетокот во листата</string>
+    <string name="font_size">Големина на фонт</string>
+    <string name="font_size_summary">олемина на фонтот на текстот на вицот</string>
+    <string name="settings">Подесување</string>
+    <string name="update_success">Превземени се %d нови вицови.</string>
+    <string name="update_fail">Нема нови вицови.</string>
+    <string name="no_favorites">Нема омилени вицови.</string>
+    <string name="network_error">Нема активна интернет врска.</string>
+    <string name="check_internet">Провери ја својата интернет врска?</string>
+    <string name="no">Не</string>
+    <string name="yes">Да</string>
+    <string name="mkjokes_widget">Виц на денот</string>
+    <string name="share">Сподели</string>
+    <string name="favorite">Омеилен</string>
+    <string name="rate">Оцени</string>
+    <string name="rate_app_title">Ви се допаѓа апликацијата?</string>
+    <string name="rate_app_msg">Частете некоја ѕвезда на маркет и нема повеќе да ве спамирам, ветувам :)</string>
+    <string name="rate_app_ok">Ајде</string>
+    <string name="rate_app_later">Наредниот пат</string>
+    <string name="separator_line">Separator line</string>
+    <string name="logo_image">Logo image</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="8dip">
+    <TextView
+        android:text="@string/from"
+        android:layout_below="@+id/tvProjectName"
+        android:layout_width="wrap_content"
+        android:id="@+id/tvFrom"
+        android:layout_height="wrap_content"
+        style="@style/DialogText"></TextView>
+    <Button
+        android:layout_below="@+id/tvFrom"
+        android:text="from date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFromDate"
+        android:onClick="onButtonClick"></Button>
+    <Button
+        android:layout_below="@+id/tvFrom"
+        android:layout_toRightOf="@+id/btnFromDate"
+        android:text="from time"
+        android:onClick="onButtonClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFromTime"></Button>
+    <TextView
+        android:text="@string/to"
+        android:layout_below="@+id/btnFromDate"
+        android:layout_width="wrap_content"
+        android:id="@+id/tvTo"
+        android:layout_height="wrap_content"
+        style="@style/DialogText"></TextView>
+    <Button
+        android:layout_below="@+id/tvTo"
+        android:text="to date"
+        android:onClick="onButtonClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnToDate"></Button>
+    <Button
+        android:layout_toRightOf="@+id/btnToDate"
+        android:layout_below="@+id/tvTo"
+        android:text="to time"
+        android:onClick="onButtonClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnToTime"></Button>
+    <TextView
+        android:text="@string/comment"
+        android:layout_below="@+id/btnToDate"
+        android:layout_width="wrap_content"
+        android:id="@+id/tvComment"
+        android:layout_height="wrap_content"
+        style="@style/DialogText"></TextView>
+    <EditText
+        android:layout_below="@+id/tvComment"
+        android:text=""
+        android:hint="@string/comment_hint"
+        android:id="@+id/comment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text|textCapSentences|textMultiLine|textImeMultiLine|textShortMessage"></EditText>
+
+</RelativeLayout>

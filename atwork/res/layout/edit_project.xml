@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/lblName"
+        android:layout_width="wrap_content"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:text="@string/project_name"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip" />
+    <EditText
+        android:layout_below="@+id/lblName"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/name"
+        android:inputType="text"
+        android:hint="@string/project_name_hint"
+        android:imeOptions="actionDone"></EditText>
+</RelativeLayout>

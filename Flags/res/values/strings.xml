@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string
+        name="app_name">Flagspotting</string>
+    <string
+        name="new_game">New Game</string>
+    <string
+        name="cont">Continue</string>
+    <string
+        name="high_scores">High Scores</string>
+    <string
+        name="ranking">Ranking</string>
+    <string
+        name="name">Name</string>
+    <string
+        name="enter_name">enter your name...</string>
+    <string
+        name="score">Points</string>
+    <string
+        name="date">Date</string>
+    <string
+        name="no_high_scores">No high scores</string>
+    <string
+        name="save">Save</string>
+    <string
+        name="cancel">Cancel</string>
+    <string
+        name="new_high_score">New high score</string>
+    <string
+        name="send_worldwide">Submit your high score to world rankings?</string>
+    <string
+        name="high_scores_top">High Scores</string>
+    <string
+        name="unknown">unknown</string>
+    <string
+        name="sound">Sound</string>
+    <string
+        name="please_wait">Please wait...</string>
+    <string
+        name="submitting">Submitting your score</string>
+    <string
+        name="reset">Clear high scores?</string>
+    <string
+        name="no_connection">You need active Internet connection to submit your score
+        worldwide.</string>
+    <string
+        name="yes">Yes</string>
+    <string
+        name="no">No</string>
+    <!-- Rate game-->
+    <string
+        name="Rate.App.Msg">Would you like to rate the app in Android Market.</string>
+    <string
+        name="Rate.App">Rate App</string>
+    <string
+        name="Rate.App.Later">Later</string>
+</resources>

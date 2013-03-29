@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/header" android:text="day"
+        style="@style/ListItemHeader"></TextView>
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_margin="5dip"
+        android:src="@drawable/default_icon">
+    </ImageView>
+    <TextView
+        android:id="@+id/name"
+        android:text="name"
+        android:layout_below="@+id/header"
+        style="@style/ListItemName" />
+    <TextView
+        android:id="@+id/date"
+        style="@style/ListItemDate"
+        android:text="date"
+        android:layout_below="@+id/name" />
+
+</RelativeLayout>

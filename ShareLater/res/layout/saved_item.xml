@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/saved"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dip">
+    </ImageView>
+    <TextView
+        android:layout_centerInParent="true"
+        android:text="@string/save_completed"
+        android:id="@+id/tvSaving"
+        style="@style/TextItem"></TextView>
+    <TextView
+        android:layout_below="@+id/tvSaving"
+        android:text="@string/wifi_notification"
+        android:id="@+id/tvWifi"
+        style="@style/TextItem"></TextView>
+    <Button
+        android:text="@string/view_pending"
+        android:id="@+id/btnPending"
+        android:layout_width="140dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"></Button>
+
+    <Button
+        android:text="@string/close"
+        android:id="@+id/btnClose"
+        android:layout_width="140dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"></Button>
+</RelativeLayout>

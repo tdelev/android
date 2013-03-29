@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff">
+    <TextView
+        android:id="@+id/name"
+        android:text="name"
+        style="@style/ProjectNameWidget" />
+    <TextView
+        android:id="@+id/start_time"
+        android:text="start_time"
+        android:layout_marginLeft="8dip"
+        android:layout_below="@+id/name"
+        style="@style/SessionItemTime" />
+    <TextView
+        android:id="@+id/tire"
+        android:text=" - "
+        android:layout_marginLeft="10dip"
+        android:layout_below="@+id/name"
+        android:layout_toRightOf="@+id/start_time"
+        style="@style/SessionItemTime" />
+    <TextView
+        android:id="@+id/end_time"
+        android:layout_marginLeft="10dip"
+        android:layout_below="@+id/name"
+        android:layout_toRightOf="@+id/tire"
+        style="@style/SessionItemTime" />
+    <TextView
+        android:id="@+id/start_date"
+        android:layout_marginLeft="8dip"
+        android:text="start_date"
+        android:layout_below="@+id/start_time"
+        style="@style/SessionItemDate" />
+    <TextView
+        android:id="@+id/end_date"
+        android:layout_below="@+id/start_time"
+        android:layout_toRightOf="@+id/tire"
+        android:layout_marginLeft="10dip"
+        style="@style/SessionItemDate" />
+    <TextView
+        android:id="@+id/total"
+        android:layout_marginLeft="8dip"
+        android:layout_below="@+id/start_date"
+        android:layout_alignParentLeft="true"
+        style="@style/SessionItemTotal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:id="@+id/btnStartStop"
+        android:layout_marginRight="8dip"
+        android:layout_height="wrap_content"
+        android:text="@string/start"></Button>
+</RelativeLayout>

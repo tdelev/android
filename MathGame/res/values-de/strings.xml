@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Math Invasion</string>
+    <string name="time_mode">World Challenge</string>
+    <string name="submit">Global Submitten</string>
+    <string name="high_scores">Lokale Scores</string>
+    <string name="scoreloop">Globale Scores</string>
+    <string name="retry">Neustart</string>
+    <string name="game_over">Game Over</string>
+    <string name="name">Ihre Name:</string>
+    <string name="enter_name">Spielername eingeben...</string>
+    <string name="new_high_score">New high score</string>
+    <string name="save">Speichern</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="unknown">John Doe</string>
+    <string name="start_new_game">Wollen Sie das Spiel neustarten? </string>
+    <string name="leave_game">Wollen Sie das Spiel verlassen? </string>
+    <string name="no_high_scores">Keine high scores vorhanden</string>
+    <string name="starting">Spiel startet in...</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    
+     <!-- Rate game-->  
+    <string name="Rate.App.Msg">Wollen Sie Math Invasion in Android Markt bewerten?</string>
+ 	<string name="Rate.App">Jetzt Bewerten</string>
+ 	<string name="Rate.App.Later">Später</string>
+ 	
+</resources>

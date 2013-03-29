@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/question_text"
+        style="@style/QuestionText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dip" />
+
+    <ListView
+        android:id="@+id/answers_list"
+        android:layout_below="@id/question_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000">
+    </ListView>
+    <Button
+        android:text="@string/prev"
+        android:id="@+id/btnPrev"
+        android:visibility="gone"
+        android:layout_below="@id/answers_list"
+        android:layout_alignParentLeft="true"
+        android:width="100dip"
+        android:onClick="onButtonClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+    <Button
+        android:text="@string/next"
+        android:layout_below="@id/answers_list"
+        android:layout_alignParentRight="true"
+        android:onClick="onButtonClick"
+        android:width="100dip"
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+    <Button
+        android:text="@string/end_quiz"
+        android:visibility="gone"
+        android:layout_below="@id/answers_list"
+        android:layout_alignParentRight="true"
+        android:width="100dip"
+        android:onClick="onButtonClick"
+        android:id="@+id/btnEndQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+    <TextView
+        android:id="@+id/questions_total"
+        android:layout_marginTop="4dip"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@id/answers_list"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/ivImpression"
+        android:src="@drawable/one_logo"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="140dip"></ImageView>
+
+</RelativeLayout>

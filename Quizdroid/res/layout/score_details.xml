@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="8dip">
+    <TextView
+        android:text="@string/result"
+        android:layout_width="wrap_content"
+        android:id="@+id/tvResult"
+        android:layout_height="wrap_content"
+        style="@style/DialogLabel"></TextView>
+
+    <TextView
+        android:text="result"
+        android:layout_marginLeft="65dip"
+        android:layout_alignBaseline="@id/tvResult"
+        android:layout_width="wrap_content"
+        android:id="@+id/result"
+        android:layout_height="wrap_content"
+        style="@style/DialogText"></TextView>
+
+    <TextView
+        android:text="@string/time"
+        android:layout_below="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:id="@+id/tvTime"
+        android:layout_height="wrap_content"
+        style="@style/DialogLabel"></TextView>
+
+    <TextView
+        android:text="time"
+        android:layout_marginLeft="65dip"
+        android:layout_alignBaseline="@id/tvTime"
+        android:layout_width="wrap_content"
+        android:id="@+id/time"
+        android:layout_height="wrap_content"
+        style="@style/DialogText"></TextView>
+
+</RelativeLayout>

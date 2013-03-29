@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip"
+        android:layout_weight="0"
+        android:background="@drawable/top_gradient">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_marginLeft="6dip"
+            android:layout_marginTop="4dip"
+            android:text="Vicoteka"></TextView>    
+        <!--
+            <TextView android:id="@+id/title"
+            android:text="@string/app_name" style="@style/TitleText" />
+        -->
+
+        <TextView
+            android:id="@+id/title_info"
+            style="@style/TitleInfoText"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="4dip"
+            android:text="" />
+
+        <ProgressBar
+            android:id="@+id/pbTitle"
+            android:layout_width="24dip"
+            android:layout_height="24dip"
+            android:layout_margin="4dip"
+            android:layout_toLeftOf="@id/title_info"
+            android:visibility="gone" >
+        </ProgressBar>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:clickable="true"
+        android:onClick="onRateClick" >
+
+        <RatingBar
+            android:id="@+id/ratingbar_static"
+            style="@style/smilieRatingBarSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="8dip"
+            android:isIndicator="true" />
+
+        <ToggleButton
+            android:id="@+id/favorite"
+            style="@style/FavoritesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/ratingbar_static"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/favorite"
+            android:background="@drawable/share_button"
+            android:onClick="onShareClick"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/idSeparator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnShare"
+            android:contentDescription="@string/separator_line"
+            android:src="@drawable/line" >
+        </ImageView>
+
+        <TextSwitcher
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idSeparator"
+            android:layout_marginLeft="6dip"
+            android:inAnimation="@android:anim/slide_in_left"
+            android:outAnimation="@android:anim/slide_out_right" >
+
+            <TextView
+                android:id="@+id/n1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/n2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TextSwitcher>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:layout_weight="1"
+        android:padding="6dip" >
+
+        <TextSwitcher
+            android:id="@+id/text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="28dip"
+            android:inAnimation="@android:anim/fade_in"
+            android:outAnimation="@android:anim/fade_out" >
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </TextSwitcher>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnPrev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@drawable/button_prev"
+            android:onClick="onNextPrev"
+            android:text="" >
+        </Button>
+
+        <Button
+            android:id="@+id/btnDecrease"
+            style="@style/FontButton"
+            android:layout_weight="1"
+            android:onClick="onFontChange"
+            android:text="--" >
+        </Button>
+
+        <Button
+            android:id="@+id/btnReset"
+            style="@style/FontButton"
+            android:layout_weight="1"
+            android:onClick="onFontChange"
+            android:text="0" >
+        </Button>
+
+        <Button
+            android:id="@+id/btnIncrease"
+            style="@style/FontButton"
+            android:layout_weight="1"
+            android:onClick="onFontChange"
+            android:text="++" >
+        </Button>
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@drawable/button_next"
+            android:onClick="onNextPrev"
+            android:text="" >
+        </Button>
+    </LinearLayout>
+
+    <com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="a14f55fea4cf9ab"
+        ads:loadAdOnCreate="true"
+        ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID" />
+
+</LinearLayout>

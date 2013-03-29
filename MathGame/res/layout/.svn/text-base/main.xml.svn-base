@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg_menu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dip"
+        android:textSize="32sp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:id="@+id/tvAppName"
+        android:text="@string/app_name" />
+    <Button
+        android:text="@string/time_mode"
+        android:id="@+id/btnTimeMode"
+        android:onClick="onBtnClick"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dip"
+        style="@style/MainButton" />
+    <Button
+        android:text="@string/high_scores"
+        android:id="@+id/btnHighScores"
+        android:onClick="onBtnClick"
+        android:layout_below="@id/btnTimeMode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dip"
+        style="@style/MainButton" />
+    <Button
+        android:text="@string/scoreloop"
+        android:id="@+id/btnScoreloop"
+        android:onClick="onBtnClick"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnHighScores"
+        android:layout_marginTop="10dip"
+        style="@style/MainButton" />
+</RelativeLayout>

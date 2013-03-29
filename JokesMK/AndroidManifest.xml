@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.feit.jokesmk"
+    android:installLocation="preferExternal"
+    android:versionCode="4"
+    android:versionName="1.2" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/JokesMKTheme" >
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".JokesList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="org.feit.jokesmk.action.JOKES_LIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".JokeView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="org.feit.jokesmk.action.VIEW_JOKE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".JokesSearch"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity android:name=".JokesPreferences" >
+            <intent-filter>
+                <action android:name="org.feit.jokesmk.action.CONFIGURE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.PREFERENCES" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <receiver android:name=".RandomJokeReceiver" >
+            <intent-filter>
+                <action android:name="org.feit.mkjokes.action.RANDOM_JOKE" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="org.feit.jokesmk.JokesProvider"
+            android:authorities="org.feit.jokesmk.JOKES" >
+        </provider>
+        <provider
+            android:name="org.feit.jokesmk.CategoriesProvider"
+            android:authorities="org.feit.jokesmk.CATEGORIES" >
+        </provider>
+
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".SearchJokes" />
+
+        <receiver
+            android:name="MkJokesWidgetProvider"
+            android:label="@string/mkjokes_widget" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/mkjokes_widget" />
+        </receiver>
+
+        <service android:name=".MkJokesWidgetProvider$UpdateService" />
+    </application>
+
+    <uses-sdk android:minSdkVersion="4" />
+
+</manifest>

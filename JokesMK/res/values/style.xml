@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="JokesMKTheme" parent="@android:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="TitleText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TitleInfoText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="smilieRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/smilie_ratingbar</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+    </style>
+
+    <style name="smilieRatingBarSmall" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/smilie_ratingbar_small</item>
+        <item name="android:minHeight">24dip</item>
+        <item name="android:maxHeight">24dip</item>
+    </style>
+
+    <style name="smilieRatingBarSmallList" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/smilie_ratingbar_small_list</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+        <item name="android:layout_marginLeft">6dip</item>
+        <item name="android:paddingBottom">4dip</item>
+    </style>
+
+    <style name="FavoritesButton" parent="@android:style/Widget.Button.Toggle">
+        <item name="android:background">@drawable/button_favorites_on_off</item>
+        <item name="android:textOn">""</item>
+        <item name="android:textOff">""</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal|bottom</item>
+    </style>
+
+    <style name="FontButton" parent="android:style/Widget.Button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/button_font</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+    </style>
+
+    <style name="JokesButton" parent="@android:style/Widget.Button.Toggle">
+        <item name="android:background">@drawable/button_jokes_on_off</item>
+        <item name="android:textOn">""</item>
+        <item name="android:textOff">""</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="CategoriesButton" parent="@android:style/Widget.Button.Toggle">
+        <item name="android:background">@drawable/button_categories_on_off</item>
+        <item name="android:textOn">""</item>
+        <item name="android:textOff">""</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="ListItemName" parent="android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#333</item>
+        <item name="android:textSize">20sp</item>
+        <!--
+              <item
+            name="android:textStyle">bold</item>
+        -->
+        <item name="android:layout_marginLeft">6dip</item>
+    </style>
+
+    <style name="ListItemRating" parent="android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#a1a1a1</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginLeft">6dip</item>
+    </style>
+
+    <style name="ListItemViews" parent="android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#a1a1a1</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginRight">4dip</item>
+    </style>
+
+    <style name="ListItemCategory" parent="android:style/Widget.TextView">
+        <item name="android:textColor">#333</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="WidgetName" parent="android:style/Widget.TextView">
+        <item name="android:textColor">#eee</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:padding">2dip</item>
+        <item name="android:background">@drawable/top_gradient</item>
+    </style>
+
+    <style name="WidgetTitle" parent="android:style/Widget.TextView">
+        <item name="android:textColor">#333</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">2dip</item>
+        <item name="android:paddingRight">2dip</item>
+    </style>
+
+    <style name="WidgetText" parent="android:style/Widget.TextView">
+        <item name="android:textColor">#333</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">2dip</item>
+    </style>
+
+</resources>

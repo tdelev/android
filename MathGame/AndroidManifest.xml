@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.at.math"
+    android:versionCode="15"
+    android:versionName="1.3">
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:name="Scoreloop"
+        android:theme="@style/MathGameTheme">
+        
+         <activity
+            android:name=".MainMenu"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MathGame"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action
+                    android:name="com.at.math.action.TIME_MODE" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".HighScores">
+            <intent-filter>
+                <action
+                    android:name="com.ta.math.action.HIGH_SCORES" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.at.math.data.ScoresProvider"
+            android:authorities="com.at.math.data.SCORES">
+        </provider>
+
+       <!-- Defining the ScoreloopUI activities -->
+
+ <activity android:name="com.scoreloop.client.android.ui.EntryScreenActivity" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+ <activity android:name="com.scoreloop.client.android.ui.ShowResultOverlayActivity" android:theme="@style/sl_dialog"/>
+
+ <activity android:name="com.scoreloop.client.android.ui.component.market.MarketHeaderActivity"/>
+ <activity android:name="com.scoreloop.client.android.ui.component.market.MarketListActivity"/>
+ <activity android:name="com.scoreloop.client.android.ui.component.entry.EntryListActivity"/>
+ <activity android:name="com.scoreloop.client.android.ui.component.post.PostOverlayActivity" android:theme="@style/sl_dialog"/>
+ <activity android:name="com.scoreloop.client.android.ui.component.score.ScoreHeaderActivity"/>
+ <activity android:name="com.scoreloop.client.android.ui.component.score.ScoreListActivity"/>
+ <activity android:name="com.scoreloop.client.android.ui.component.user.UserAddBuddyListActivity"/>
+ <activity android:name="com.scoreloop.client.android.ui.component.user.UserHeaderActivity"/>
+ <activity android:name="com.scoreloop.client.android.ui.component.user.UserDetailListActivity"/>
+ <activity android:name="com.scoreloop.client.android.ui.component.user.UserListActivity"/>
+ <activity android:name="com.scoreloop.client.android.ui.component.game.GameDetailHeaderActivity"/>
+ <activity android:name="com.scoreloop.client.android.ui.component.game.GameDetailListActivity"/>
+ <activity android:name="com.scoreloop.client.android.ui.component.game.GameListActivity"/>
+ <activity android:name="com.scoreloop.client.android.ui.component.profile.ProfileSettingsListActivity"/>
+ <activity android:name="com.scoreloop.client.android.ui.component.profile.ProfileSettingsPictureListActivity"/>
+ <activity android:name="com.scoreloop.client.android.ui.LeaderboardsScreenActivity" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+ 
+ <activity android:name="com.scoreloop.client.android.ui.framework.ScreenActivity" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+ <activity android:name="com.scoreloop.client.android.ui.framework.TabsActivity"/>
+
+        <!-- AdMobActivity definition -->
+        <activity
+            android:name="com.admob.android.ads.AdMobActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:configChanges="orientation|keyboard|keyboardHidden" />
+
+        <meta-data 
+            android:value="a14d5dabd1b51bc"
+            android:name="ADMOB_PUBLISHER_ID" />
+        <meta-data
+            android:value="true"
+            android:name="ADMOB_ALLOW_LOCATION_FOR_ADS" />
+
+    </application>
+
+    <uses-sdk
+        android:minSdkVersion="4" />
+    <supports-screens
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:anyDensity="true"
+        android:resizeable="false" />
+
+    <!-- AdMob SDK permissions -->
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE" />
+  
+
+
+</manifest> 

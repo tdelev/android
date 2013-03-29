@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:id="@+id/month"
+        style="@style/MonthLayout">
+        <TextView
+            android:id="@+id/month_total_lbl"
+            android:text="@string/month_total"
+            style="@style/SessionItemMonthLabel" />
+        <TextView
+            android:id="@+id/month_total"
+            android:layout_alignParentRight="true"
+            android:text="34 h"
+            style="@style/SessionItemMonth" />
+    </RelativeLayout>
+    <RelativeLayout
+        style="@style/WeekLayout"
+        android:id="@+id/week"
+        android:layout_below="@+id/month">
+        <TextView
+            android:id="@+id/week_total_lbl"
+            android:text="@string/month_total"
+            style="@style/SessionItemWeekLabel" />
+        <TextView
+            android:id="@+id/week_total"
+            android:text="34 h"
+            android:layout_alignParentRight="true"
+            style="@style/SessionItemWeek" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/start_time"
+        android:text="start_time"
+        android:layout_marginLeft="8dip"
+        android:layout_below="@+id/week"
+        style="@style/SessionItemTime" />
+    <TextView
+        android:id="@+id/tire"
+        android:text=" - "
+        android:layout_marginLeft="10dip"
+        android:layout_below="@+id/week"
+        android:layout_toRightOf="@+id/start_time"
+        style="@style/SessionItemTime" />
+    <TextView
+        android:id="@+id/end_time"
+        android:layout_marginLeft="10dip"
+        android:layout_below="@+id/week"
+        android:layout_toRightOf="@+id/tire"
+        style="@style/SessionItemTime" />
+    <TextView
+        android:id="@+id/total"
+        android:layout_marginRight="8dip"
+        android:layout_below="@+id/week"
+        android:layout_alignParentRight="true"
+        style="@style/SessionItemTotal" />
+    <TextView
+        android:id="@+id/start_date"
+        android:layout_marginLeft="8dip"
+        android:text="start_date"
+        android:layout_below="@+id/start_time"
+        style="@style/SessionItemDate" />
+    <TextView
+        android:id="@+id/end_date"
+        android:layout_below="@+id/start_time"
+        android:layout_toRightOf="@+id/tire"
+        android:layout_marginLeft="10dip"
+        style="@style/SessionItemDate" />
+</RelativeLayout>

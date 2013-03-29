@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string
+        name="app_name">Квиздроид</string>
+    <string
+        name="active_quizes">Активни квизови</string>
+    <string
+        name="no_quizes">Нема активни квизови</string>
+    <string
+        name="network_error">Нема активна интернет врска.</string>
+    <string
+        name="check_internet">Провери ја својата интернет врска?</string>
+    <string
+        name="loading">Вчитувам...</string>
+    <string
+        name="no">Не</string>
+    <string
+        name="yes">Да</string>
+    <string
+        name="posting">Испраќам</string>
+    <string
+        name="results">Резултати</string>
+    <string
+        name="result">Резултат:</string>
+    <string
+        name="time">Време:</string>
+    <string
+        name="loading_msg">Ве молиме почекајте...</string>
+    <string
+        name="next">Следно</string>
+    <string
+        name="prev">Претходно</string>
+    <string
+        name="end_quiz">Kraj</string>
+    <string
+        name="name">Име:</string>
+    <string
+        name="enter_name">внесете име</string>
+    <string
+        name="enter_your_name">Внесете го вашето име</string>
+    <string
+        name="save">ОК</string>
+    <string
+        name="cancel">Откажи</string>
+    <string
+        name="more_questions">Се уште имате неодговорени прашања!</string>
+    <string
+        name="active">активен уште</string>
+    <string
+        name="day">ден</string>
+    <string
+        name="days">дена</string>
+    <string
+        name="hours">час.</string>
+    <string
+        name="h">час</string>
+    <string
+        name="hh">часа</string>
+    <string
+        name="m">минута</string>
+    <string
+        name="mm">минути</string>
+    <string
+        name="minutes">мин.</string>
+    <string
+        name="seconds">сек.</string>
+    <string
+        name="played_title">Квизот е изигран</string>
+    <string
+        name="played_message">Овој квиз го имате играно и освоивте %d поени</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="1.0"
+    package="org.feit.atwork">
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AtWorkTheme">
+        <activity
+            android:name=".ProjectsList"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SessionsList"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action
+                    android:name="org.feit.atwork.action.SESSIONS" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SessionDetails"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action
+                    android:name="org.feit.atwork.action.SESSION_DETAILS" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name=".UpdateSessionReceiver">
+            <intent-filter>
+                <action
+                    android:name="org.feit.atwork.action.UPDATE_SESSION" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".ConfigureWidget">
+            <intent-filter>
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+        <provider
+            android:name="org.feit.atwork.data.ProjectsProvider"
+            android:authorities="org.feit.atwork.data.PROJECTS">
+        </provider>
+        <provider
+            android:name="org.feit.atwork.data.SessionsProvider"
+            android:authorities="org.feit.atwork.data.SESSIONS">
+        </provider>
+
+        <receiver
+            android:name="AtworkWidgetProvider"
+            android:label="Atwork Widget">
+            <intent-filter>
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/atwork_widget" />
+        </receiver>
+        
+        <!-- Service to perform widget updates -->
+        <service android:name=".AtworkWidgetProvider$UpdateService" />
+    </application>
+    <uses-sdk
+        android:minSdkVersion="4" />
+
+</manifest> 

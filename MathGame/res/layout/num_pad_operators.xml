@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res/com.at.math"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TableRow>
+        <Button
+            android:text="+"
+            android:id="@+id/btnPlus"
+            android:onClick="onNumPadClick"
+            style="@style/NumPadButtonOperator"></Button>
+        <Button
+            android:text="-"
+            android:id="@+id/btnMinus"
+            android:onClick="onNumPadClick"
+            style="@style/NumPadButtonOperator"></Button>
+        <Button
+            android:text="x"
+            android:id="@+id/btnTimes"
+            android:onClick="onNumPadClick"
+            style="@style/NumPadButtonOperator"></Button>
+        <Button
+            android:text="/"
+            android:id="@+id/btnDivide"
+            android:onClick="onNumPadClick"
+            style="@style/NumPadButtonOperator"></Button>
+        
+    </TableRow>
+ 
+</TableLayout>
+
+ 

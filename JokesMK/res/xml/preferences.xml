@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="fontSize"
+        android:title="@string/font_size"
+        android:summary="@string/font_size_summary"
+        android:entries="@array/font_size_choices_entries"
+        android:entryValues="@array/font_size_choices_entry_values"
+        android:dialogTitle="@string/font_size_summary"
+        android:defaultValue="18" />
+
+    <ListPreference
+        android:key="pageSize"
+        android:title="@string/page_size"
+        android:summary="@string/page_size_summary"
+        android:entries="@array/page_size_choices_entries"
+        android:entryValues="@array/page_size_choices_entries"
+        android:dialogTitle="@string/page_size_summary"
+        android:defaultValue="20" />
+
+
+</PreferenceScreen>

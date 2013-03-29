@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ListView
+        android:id="@+id/jokes_clusters"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textFilterEnabled="true"
+        android:cacheColorHint="#00000000">
+    </ListView>
+    <TextView
+        android:id="@+id/no_jokes"
+        android:textSize="18sp"
+        android:text="@string/no_jokes"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

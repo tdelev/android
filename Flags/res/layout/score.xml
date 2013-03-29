@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res/com.tb.flags"
+    android:background="@drawable/bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:textColor="#fff"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:text="score"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dip"
+        android:id="@+id/ivFlag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ImageView>
+    <TextView
+        android:id="@+id/fact"
+        android:layout_width="wrap_content"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dip"
+        android:layout_marginLeft="6dip"
+        android:layout_marginRight="6dip"
+        android:layout_below="@id/ivFlag" />
+    <!--
+        <com.admob.android.ads.AdView android:id="@+id/ad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        myapp:backgroundColor="#000000" myapp:primaryTextColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        myapp:secondaryTextColor="#CCCCCC" />
+    -->
+</RelativeLayout>

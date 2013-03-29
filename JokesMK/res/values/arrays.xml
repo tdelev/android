@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="sort_type">
+        <item>Нови</item>
+        <item>Име</item>
+        <item>Должина</item>
+        <item>Рејтинг</item>
+        <item>Читања</item>
+    </string-array>
+    <string-array
+        name="page_size_choices_entries">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>50</item>
+    </string-array>
+    <string-array
+        name="font_size_choices_entries">
+        <item>Мал</item>
+        <item>Среден</item>
+        <item>Голем</item>
+        <item>Многу голем</item>
+    </string-array>
+    <string-array
+        name="font_size_choices_entry_values">
+        <item>14</item>
+        <item>18</item>
+        <item>22</item>
+        <item>26</item>
+    </string-array>
+    
+</resources>

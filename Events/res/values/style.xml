@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="EventsTheme" parent="@android:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="MainButton" parent="android:style/Widget.Button">
+        <item name="android:layout_width">180dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:background">@drawable/button_tab_on_off</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+        <item name="android:paddingTop">8dip</item>
+        <item name="android:paddingBottom">8dip</item>
+        <!--
+            <item name="android:layout_weight">1</item> <item
+            name="android:gravity">center</item>
+        -->
+    </style>
+
+    <style name="NormalButton" parent="android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TitleInfoText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="HeaderText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="LabelText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="EventItemHeader">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">#FF262626</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="EventItemName">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#111</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="EventItemAt">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#333</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="EventItemVenue">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#333</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="EventItemTime">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#333</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Header">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:background">#999</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="EventInfo">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">#FF262626</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:padding">2dip</item>
+    </style>
+
+    <style name="EventName">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FF800000</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">6dip</item>
+    </style>
+
+    <style name="EventLabel">
+        <item name="android:layout_width">80dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingRight">6dip</item>
+        <item name="android:paddingTop">4dip</item>
+        <item name="android:paddingBottom">4dip</item>
+        <item name="android:textColor">#333</item>
+        <item name="android:background">#FFCCCCCC</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical|right</item>
+    </style>
+
+    <style name="EventData">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">6dip</item>
+        <item name="android:paddingRight">6dip</item>
+        <item name="android:paddingTop">2dip</item>
+        <item name="android:paddingBottom">2dip</item>
+        <item name="android:textColor">#111</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="EventDesc">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#333</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">6dip</item>
+    </style>
+
+    <style name="NearbyButton" parent="@android:style/Widget.Button.Toggle">
+        <item name="android:background">@drawable/button_tab_on_off</item>
+        <item name="android:textOn">@string/near_by</item>
+        <item name="android:textOff">@string/near_by</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="BrowseButton" parent="@android:style/Widget.Button.Toggle">
+        <item name="android:background">@drawable/button_tab_on_off</item>
+        <item name="android:textOn">@string/browse</item>
+        <item name="android:textOff">@string/browse</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="SearchButton" parent="@android:style/Widget.Button.Toggle">
+        <item name="android:background">@drawable/button_tab_on_off</item>
+        <item name="android:textOn">@string/search</item>
+        <item name="android:textOff">@string/search</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>

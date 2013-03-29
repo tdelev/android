@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string-array name="api_methods">
+        <item>Running</item>
+        <item>Cycling</item>
+        <item>Blading</item>
+        <item>Walking</item>
+        <item>Free Style</item>        
+    </string-array>
+</resources>

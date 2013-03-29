@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="intent_actions">
+		<item>Share</item>
+		<item>Delete</item>
+		<item>View</item>
+	</string-array>
+</resources>
+

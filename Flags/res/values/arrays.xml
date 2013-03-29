@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="easy">
+        <item>Australia</item>
+        <item>Brazil</item>
+        <item>Canada</item>
+        <item>China</item>
+        <item>Cuba</item>
+        <item>England</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Korea</item>
+        <item>Mexico</item>
+        <item>Russia</item>
+        <item>Spain</item>
+        <item>Switzerland</item>
+        <item>Turkey</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+    </string-array>
+    <string-array
+        name="medium">
+        <item>Argentina</item>
+        <item>Austria</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Bulgaria</item>
+        <item>Bolivia</item>
+        <item>Bosnia</item>
+        <item>Chile</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Croatia</item>
+        <item>Czech Republic</item>
+        <item>Denmark</item>
+        <item>Finland</item>
+        <item>Greece</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Macedonia</item>
+        <item>New Zealand</item>
+        <item>Netherlands</item>
+        <item>Nigeria</item>
+        <item>Norway</item>
+        <item>Peru</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Romania</item>
+        <item>Saudi Arabia</item>
+        <item>Serbia</item>
+        <item>Sweden</item>
+        <item>Uruguay</item>
+        <item>Ukraine</item>
+    </string-array>
+    <string-array
+        name="hard">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antigua and Barbuda</item>
+        <item>Armenia</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Botswana</item>
+        <item>Brunei</item>
+        <item>Burkina Faso</item>
+        <item>Burma</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Cape Verde</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Comoros</item>
+        <item>Congo</item>
+        <item>Cyprus</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Ethiopia</item>
+        <item>Fiji</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Grenada</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guinea Bissau</item>
+        <item>Guinea</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Vatican</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Indonesia</item>
+        <item>Ivory Coast</item>
+        <item>Bhutan</item>
+        <item>Djibouti</item>
+        <item>Greenland</item>
+        <item>Jersey</item>
+        <item>Montenegro</item>
+        <item>Panama</item>
+        <item>Senegal</item>
+        <item>Syria</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Micronesia</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>New Caledonia</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Niue</item>
+        <item>North Korea</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Philippines</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Rwanda</item>
+        <item>Saint Helena</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Martin</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Sao Tome and Principe</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Georgia</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Swaziland</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Timor Leste</item>
+        <item>Togo</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkmenistan</item>
+        <item>Tuvalu</item>
+        <item>Uganda</item>
+        <item>United Arab Emirates</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Virgin Islands</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+    <string-array
+        name="easy_facts">
+        <item>Australia is the sixth largest nation after Russia,
+            Canada, China, the United States of America and Brazil. It
+            has, however, a relatively small population.</item>
+        <item>Brazil is the largest country in South America.</item>
+        <item>Canada has more lakes than the rest of the world combined.
+        </item>
+        <item>If China imported just 10%% of it\'s rice needs- the price
+            on the world market would increase by 80%%.</item>
+        <item>Cuba is home to over 11 million people and is the most
+            populous island nation in the Caribbean.</item>
+        <item>Nearly 84%% of the population of the UK lives in England,
+            mainly in the major cities and metropolitan areas.</item>
+        <item>Nearly 20%% of the territory of France lies outside
+            Europe. These regions are known as "DOM-TOM" (overseas
+            departments and territories), where over 2.5 million French
+            citizens live.</item>
+        <item>Germany is Europe\'s second largest populous nation. It is
+            also Europe\'s largest economy.</item>
+        <item>Israel has the highest ratio of university degrees to the
+            population in the world.</item>
+        <item>The colors of the Italian flag represent the three
+            cardinal virtues: Green - hope; White - faith; Red -
+            charity.</item>
+        <item>Christopher Columbus was the first European to visit
+            Jamaica in 1494 and called it "the fairest island that eyes
+            have beheld."</item>
+        <item>More than a thousand earthquakes hit Japan every year.
+            Japan also has about 200 volcanoes, 60 of which are active.
+        </item>
+        <item>South Korea has one of the strongest economies in Eastern
+            Asia. Most of its wealth comes from manufacturing and
+            service industries, such as banking. It exports ships, cars,
+            computers, and other electronic items.</item>
+        <item>Mexico\'s ancient societies built great cities and huge
+            pyramids, created remarkable works of art, and even studied
+            the stars and planets to determine when to plant crops and
+            hold ceremonies.</item>
+        <item>Russia, the largest country in the world, occupies
+            one-tenth of all the land on Earth. It spans 11 time zones
+            across two continents (Europe and Asia) and has coasts on
+            three oceans (the Atlantic, Pacific, and Arctic).</item>
+        <item>Spaniards are known for their love of life and for eating
+            and drinking with family and friends. Traditional appetizers
+            like tapas or pintxos, the Basque country equivalent, are
+            popular. Regional dances and music are almost as important
+            as soccer and religious festivals.</item>
+        <item>Switzerland has one of the lowest crime rates of all
+            industrialised countries.</item>
+        <item>Turkey is home to one of the earliest settlements in the
+            world. Built 8,800 years ago, Catal Hoyuk was a labyrinth of
+            150 mud homes joined together. There were no streets in
+            between, so people had to enter the homes through holes in
+            the roof!</item>
+        <item>The United Kingdom, also called the U.K., consists of a
+            group of islands off the northwest coast of Europe. It is a
+            unique country made up of four nations: England, Wales,
+            Scotland, and Northern Ireland. England, Wales, and Scotland
+            also make up Great Britain.</item>
+        <item>The United States consumes 25%% of all the world\'s
+            energy.</item>
+    </string-array>
+    <string-array
+        name="medium_facts">
+        <item>Argentina is a vast country located in the southern part
+            of South America. The eighth largest country in the world,
+            it is the second largest country in South America after
+            Brazil, and it\'s about one-third the size of the United
+            States.</item>
+        <item>Austria is one of the most forested countries in Europe
+            with almost half its territory covered in forest—and
+            forested area is increasing steadily thanks to Austria\'s
+            "green lung" projects.</item>
+        <item>Much of Belarus (formerly the Belorussian Soviet Socialist
+            Republic of the USSR, and then Byelorussia) is a hilly
+            lowland with forests, swamps, and numerous rivers and lakes.
+            There are wide rivers emptying into the Baltic and Black
+            seas. Its forests cover over one-third of the land and its
+            peat marshes are a valuable natural resource.</item>
+        <item>There are over 800 kinds of beers made in Belgium.
+            Belgians consume in average 150 liters of beer per person
+            per year.</item>
+        <item>The name Bulgaria has been kept after Bulgar people, who
+            arrived here in the late seventh century.</item>
+        <item>Bolivia has had more than 190 revolutions and coups since
+            it became independent in 1825. The latest constitution was
+            adopted in 1967.</item>
+        <item>Bosnia and Herzegovina make up a triangular-shaped
+            republic, about half the size of Kentucky, on the Balkan
+            peninsula.</item>
+        <item>About 40 percent of the Chile\'s population lives in the
+            area around the capital of Santiago. Children in rural areas
+            need to wake up at 5:00 - 6:00 am to walk to school or meet
+            the bus. Their journeys sometimes take two hours each way.
+        </item>
+        <item>Colombia is nicknamed the "gateway to South America"
+            because it sits in the northwestern part of the continent
+            where South America connects with Central and North America.
+        </item>
+        <item>Costa Rica is a little country which is often called the
+            "Switzerland of Central America". In 2009 Costa Rica was
+            named the happiest country among all Americas (Northern,
+            Central, and Southern).</item>
+        <item>In Croatia, people can start voting at the age of 16, if
+            they have a job, but have to wait until they turn 18, if
+            they are unemployed.</item>
+        <item>The Czech capital, Prague, is more than 1 000 years old
+            and has a wealth of historic architecture of different
+            styles. Because of this, the city has become a favoured
+            location for many international film makers.</item>
+        <item>In Denmark, it rains every second day. On average, a year
+            has 171 days with a precipitation of more than 0.1mm). In
+            2007, however, there were 188 days of precipitation.</item>
+        <item>Finland is ranked as the least corrupt country in the
+            world.</item>
+        <item>The colors of the Flag Blue and White symbolize the blue
+            of the Hellenic Sea and the Whiteness of its restless waves.
+        </item>
+        <item>Hungary is one of the oldest countries in Europe, founded
+            way back in the year 896.</item>
+        <item>Iceland has vast amounts of water because it rains so
+            much. Icelandic water is so clean and pure that it is piped
+            into the city and to the kitchen taps in the home without
+            any treatment (no chlorination needed).</item>
+        <item>With a population of over 1 billion, India is home to 400
+            million children, the largest number in any country in the
+            world.</item>
+        <item>The former name of Iran was Persia, which was in use till
+            1935. The word Iran means the ‘Land of the Aryan’s.</item>
+        <item>Iraq occupies the ancient region of Mesopotamia, "land
+            amidst the rivers," a fertile lowland created by the Tigris
+            and Euphrates Rivers.</item>
+        <item>Dublin, Ireland\'s capital was founded by the Vikings in
+            988 and was originally called Dubh Linn (which means Black
+            Pool in Irish).</item>
+        <item>The landlocked and mostly mountainous country of
+            Macedonia, in southeastern Europe, proclaimed independence
+            from Yugoslavia in September 1991.</item>
+        <item>Maoris were the first inhabitants of New Zealand, arriving
+            on the islands in about 1000. Maori oral history maintains
+            that the Maoris came to the island in seven canoes from
+            other parts of Polynesia.</item>
+        <item>The Dutch have a saying: "God made the Earth, but the
+            Dutch made Holland." The first defenses against the sea went
+            up some 800 years ago. Today more than 2,400 kilometers
+            (1,491 miles) of dikes shield the low, flat land—almost half
+            of which lies below sea level—from invasion by the North
+            Sea.</item>
+        <item>Nigeria is the most populous country in Africa, the eighth
+            most populous country in the world, and the most populous
+            country in the world in which the majority of the population
+            is black.</item>
+        <item>Norway has some of the highest petrol prices in the world,
+            even though the country is one of the biggest oil exporter
+            in the world.</item>
+        <item>Peru is the home of the oldest civilizations in the world
+            which was the Norte Chico civilization.</item>
+        <item>Poland is the 6th most populous and the 6th largest of the
+            27 member states in the European Union.</item>
+        <item>Portugal is the oldest country in Europe to have its
+            borders defined just as they are now.</item>
+        <item>Romania lies on the Black Sea coast of southeastern
+            Europe. The Carpathian Mountains and the Transylvanian Alps
+            divide the country into three physical and historical
+            regions: Wallachia in the south, Moldavia in the northeast,
+            and Transylvania in the country\'s center.</item>
+        <item>Saudi Arabia is keeper of Islam’s most sacred cities:
+            Mecca, where the Prophet Muhammad received the word of
+            Allah.</item>
+        <item>The Kingdom of Serbia was formed in 1918, changing its
+            name to Yugoslavia a decade later. In 1989, Slobodan
+            Milosevic, new president of the Serbian Republic, called for
+            Serbian domination, which led to the breakup of Yugoslavia.
+        </item>
+        <item>Sweden is the 3rd largest EU country in land area, after
+            France and Spain.</item>
+        <item>The world\'s first constitution was created by a Ukrainian
+            politician Pylyp Orlyk. On April 5th, 1710.</item>
+    </string-array>
+    <string-array
+        name="hard_facts">
+        <item>Afghanistan was settled around 7000 B.C. and has been in
+            transition for most of its history.</item>
+        <item>Albania is one of the poorest countries in Europe (and the
+            only one with a Muslim majority).</item>
+        <item>Algeria is the second largest country in Africa. Over 1
+            million Algerians died during the country\'s fight for
+            independence from France which they achieved in 1962.</item>
+        <item>Andorra\'s capital, Andorra la Vella, is the highest
+            capital city in Europe, being at an elevation of 1023
+            meters.</item>
+        <item>Portuguese colony since the 15th century, Angola was the
+            source for millions of slaves sent to Brazil and other
+            places across the Atlantic.</item>
+        <item>Anguilla\'s total land area of the territory is 91 km2
+            with a population of approximately 13,500.</item>
+        <item>Antigua and Barbuda, small islands in the eastern
+            Caribbean, were colonized by the English in 1632. Sugar
+            plantations ruled the economy, and African slaves were
+            brought in as laborers.</item>
+        <item>The Kingdom of Armenia was the first state to adopt
+            Christianity as its religion, in the early years of the 4th
+            century.</item>
+        <item>Azerbaijan Democratic Republic was the first successful
+            attempt to establish a democratic and secular republic in
+            the Muslim world.</item>
+        <item>Bahamas is an archipelago nation of approximately 700
+            islands, of which 40 are populated. The islands cover an
+            area of about 100,000 square miles.</item>
+        <item>Bahrain is a small island country with approximately
+            800,000 inhabitants (2009), located near the western shores
+            of the Persian Gulf and ruled by the Al Khalifa royal
+            family.</item>
+        <item>Bangladesh is the eighth most populous country and is
+            among the most densely populated countries in the world. The
+            country also has a high poverty rate. However, per-capita
+            (inflation-adjusted) GDP has more than doubled since 1975,
+            and the poverty rate has fallen by 20%% since the early
+            1990s.</item>
+        <item>Once a Spanish and Portuguese territorial possession known
+            as Los Barbados, in 1625 it became an English, and later a
+            British, colony.Barbados has an estimated population of
+            284,589 people, with around 80,000 living in or around
+            Bridgetown, the largest city and the country\'s capital.
+        </item>
+        <item>Close to 1 million tourists visit Belize annually, 70%% of
+            whom are Americans.</item>
+        <item>Benin covers an area of approximately 110,000 square
+            kilometers (42,000 sq mi), with a population of
+            approximately 9.05 million. Benin is a tropical, sub-Saharan
+            nation, highly dependent on agriculture, with substantial
+            employment and income arising from subsistence farming.
+        </item>
+        <item>Botswana is slightly smaller than the US state of Texas.
+            It mainly deals in diamonds and cattle. 70%% of Botswana is
+            desert and the vast majority of its estimated 1.6 million
+            population live along the banks of the river Okavango.
+        </item>
+        <item>Brunei won its independence in 1984 after almost a century
+            as a British protectorate. Rich in oil and natural gas, the
+            people of this Muslim sultanate enjoy high subsidies and
+            generous health care. Brunei has an absolute monarchy and a
+            hereditary nobility, with the sultan awarding titles to
+            commoners.</item>
+        <item>Burkina Faso\'s size is 274,200 square kilometers with an
+            estimated population of more than 15,757,000.Formerly called
+            the Republic of Upper Volta, it was renamed on August 4,
+            1984, by President Thomas Sankara to mean "the land of
+            upright people".</item>
+        <item>Burma officially the Republic of the Union of Myanmar was
+            part of Britain\'s Indian Empire until 1937, when it became
+            a self-governing colony. Burma gained its independence from
+            Britain in 1948.</item>
+        <item>Burundi is one of the ten poorest countries in the world.
+            It has the lowest per capita GDP of any nation in the world.
+            Burundi\'s main exports include coffee and sugar.</item>
+        <item>Cambodia is a country in Southeast Asia that borders
+            Thailand to the west and northwest, Laos to the northeast,
+            Vietnam to the east, and the Gulf of Thailand to the
+            southwest. The geography of Cambodia is dominated by the
+            Mekong River (Tonlй Mйkong) and Tonlй Sap lake.</item>
+        <item>Cameroon is home to over 200 different linguistic groups
+            and that is why it is known as ‘Africa in miniature’.
+            Cameroon\'s population at 19,522,000 and it has a high level
+            of religious freedom and diversity.</item>
+        <item>The Republic of Cape Verde is an island country, spanning
+            an archipelago of 10 islands located in the central Atlantic
+            Ocean, 570 kilometers off the coast of Western Africa.
+        </item>
+        <item>Deep in the heart of the continent, the Central African
+            Republic was part of French Equatorial Africa before
+            independence in 1960. It is one of the world\'s least
+            developed countries, with most of the population engaged in
+            subsistence farming.</item>
+        <item>Chad is about 85%% the size of Alaska. Its neighbors are
+            Niger, Libya, the Sudan, the Central African Republic,
+            Cameroon, and Nigeria. Lake Chad, from which the country
+            gets its name, lies on the western border with Niger and
+            Nigeria. In the north is a desert that runs into the Sahara.
+        </item>
+        <item>At 1,862 km2 (719 sq mi) the Comoros is the third-smallest
+            African nation by area. With a population estimated at
+            798,000, it is the sixth-smallest African nation by
+            population although it has one of the highest population
+            densities in Africa.</item>
+        <item>The Congo is situated in west-central Africa astride the
+            equator. It borders Gabon, Cameroon, the Central African
+            Republic, the Democratic Republic of the Congo, and the
+            Angola exclave of Cabinda, with a short stretch of coast on
+            the South Atlantic. Its area is nearly three times that of
+            Pennsylvania. Most of the inland is tropical rain forest,
+            drained by tributaries of the Congo River.</item>
+        <item>Cyprus gained independence in 1960. The country had
+            previously been controlled by Great Britain and joined the
+            British Commonwealth in 1961, meaning that Cyprus sends a
+            team to the Commonwealth Games every four years.</item>
+        <item>Dominica officially the Commonwealth of Dominica, is an
+            island nation in the Caribbean Sea. Its size is 750 square
+            kilometers and has an estimated population of 72,500.</item>
+        <item>The Dominican Republic has more than 9 million people.It
+            shares the island of Hispaniola in the Caribbean with the
+            nation of Haiti, once served as a Spanish colony. Spanish is
+            the primary language.</item>
+        <item>Ecuador\'s name comes from the Equator, which divides it
+            unequally, putting most of the country in the Southern
+            Hemisphere. It may be the smallest Andean country, but it
+            has four distinct and contrasting regions.</item>
+        <item>Egypt is The world\'s original tourist destination, the
+            seat of thought and influence in the Arab world and the
+            first Arab country to make peace with Israel.</item>
+        <item>El Salvador is the smallest but most densely populated
+            country in Central America. Located between Guatemala and
+            Honduras, it also has over 300 km of coastline on the North
+            Pacific Ocean.</item>
+        <item>Equatorial Guinea with an area of 28,000 square kilometers
+            (11,000 sq mi) it is one of the smallest countries in
+            continental Africa. It is also the most prosperous however,
+            the wealth is concentrated in government and elite hands.
+        </item>
+        <item>Eritrea is a country in the Horn of Africa. The capital is
+            Asmara. Eritrea\'s size is approximately 117,600 km2 (45,406
+            sq mi) with an estimated population of 5 million.</item>
+        <item>Ethiopia is the birthplace of coffee and they have
+            official coffee ceremonies in the home. If you are offered
+            coffee, it is very rude to decline.</item>
+        <item>Fiji Islands is an archipelago that consists of 322
+            islands and 522 smaller islets, lying in the Pacific Ocean,
+            not far from Australia and New Zealand. Kayaking, rainforest
+            treks, mountain biking, snorkeling and diving along with
+            lush green surroundings and fabulous sea-bed offered by this
+            dreamy island fulfills every visitor’s desire of having a
+            matchless holiday.</item>
+        <item>Gabon covers a land area of nearly 270,000 kmІ and has an
+            estimated population of 1,500,000. Its capital and largest
+            city is Libreville.</item>
+        <item>Gambia is the smallest country on mainland Africa. Its
+            size is almost 10,500 kmІ with an estimated population of
+            1,700,000.</item>
+        <item>Georgia contains two de facto independent regions,
+            Abkhazia and South Ossetia, which Georgia considers to be
+            occupied by Russia.</item>
+        <item>Ghana is a big country but not the biggest in Africa, it
+            is around the size of Great Britain. The word Ghana means
+            Warrior King and was the title awarded to the kings of the
+            medieval West African Ghana Empire.</item>
+        <item>Gibraltar was listed as the 5th most stable and prosperous
+            British Territory, in a one-year investigation of 235
+            countries and territories. It is a peninsula of 6.843 square
+            kilometers and home to almost 30,000 Gibraltarians and other
+            nationalities.</item>
+        <item>Grenada is an island country and Commonwealth Realm
+            consisting of the island of Grenada and six smaller islands
+            at the southern end of the Grenadines in the southeastern
+            Caribbean Sea. Its size is 344 square kilometers (133 sq
+            mi), with an estimated population of 110,000.</item>
+        <item>There are men in Guam whose full-time job is to travel the
+            countryside and deflower young virgins, who pay them for the
+            privilege of having sex for the first time.Reason: under
+            Guam law, it is expressly forbidden for virgins to marry.
+        </item>
+        <item>Almost all of the Guatemala Indians are descendents of the
+            Mayan Culture. They live in towns or small settlements
+            scattered across the country. Each of these groups has
+            developed customs and colorful costumes in their communities
+            that are totally individual and separate from each other.
+        </item>
+        <item>The Republic of Guinea-Bissau is a country in West Africa.
+            It covers 36,125 kmІ (nearly 14,000 sq mi) with an estimated
+            population of 1,600,000. Only 14%% of the population speaks
+            the official language, Portuguese.</item>
+        <item>Guinea\'s 10 million people belong to twenty-four ethnic
+            groups. The most prominent groups are the Fula, Mandinka,
+            and Susu.</item>
+        <item>Guyana is a sovereign state on the northern coast of South
+            America that is culturally part of the Anglophone Caribbean.
+            Guyana has been a former colony of the British, Dutch,
+            French and for 200 years the Spanish.</item>
+        <item>Even BEFORE the earthquake, 1 in every 3 of Haiti’s kids
+            die before the age of 5 years.</item>
+        <item>Honduras is the poorest nation in Central America.
+            Campesinos or farmers work plots of land and live in rural
+            areas made up of small villages. Approximately half of all
+            the adults are illiterate even though by law, children must
+            attend school until the age of 15.</item>
+        <item>As one of the world\'s leading international financial
+            centers, Hong Kong has a major capitalist service economy
+            characterized by low taxation and free trade, and the
+            currency, Hong Kong dollar, is the ninth most traded
+            currency in the world.</item>
+        <item>Indonesia comprises 17,508 islands.Three of the ten
+            largest islands in the world are found here.The biggest
+            island in Indonesia is Sumatra.</item>
+        <item>The Isle of Man is a self-governing British Crown
+            Dependency, located in the Irish Sea between the islands of
+            Great Britain and Ireland, within the British Isles. The
+            island has been inhabited since before 6500 BC and now is a
+            home to 80,058 people</item>
+        <item>Hong Kong has more Rolls Royce’s per person than any other
+            city in the world.</item>
+        <item>The word “Bhutan” translates to “Land of the Thunder
+            Dragon.” It earned the nickname because of the fierce storms
+            that often roll in from the Himalayas.</item>
+        <item>Djibouti is the 3rd smallest country on the African
+            continent, after The Gambia and Swaziland. As of 2005,
+            Djibouti has the least number of people on the African
+            continent.</item>
+        <item>Greenland is the largest non-continental island in the
+            world with an area of 2,166,086 sq. km.</item>
+        <item>Jersey has numerous residents born outside Jersey; 47%% of
+            the population are not native to the island. The total
+            population is nearly 88,000. Thirty percent of the
+            population is concentrated in Saint Helier, the island\'s
+            only town.</item>
+        <item>According to the World Tourism and Trade Council 2004
+            report, Montenegro is the fastest growing tourist
+            destination in the World.</item>
+        <item>With 5,637 kilometers of coastline and more than 1,518
+            islands, Panama has more beaches than one can imagine. No
+            wonder it is among the top retirement locations in the
+            world.</item>
+        <item>French is the official language in Senegal, but really
+            only used regularly by a minority of Senegalese who were
+            educated in colonial-style schools of French origin. Most
+            people speak their own ethnic language.</item>
+        <item>According to historians, Damascus, the capital of Syria,
+            is the oldest inhabited city in the world as it has
+            continuous been inhabited for more than 4,000 years.</item>
+        <item>The national flag of Jordan shows equally spaced,
+            horizontal bands of black, white, and green, with a red
+            triangle at the hoist. In the center of the red triangle,
+            there is a seven point white star, the points representing
+            the seven opening verses of the Koran.</item>
+        <item>Kazakhstan has the main launch site for Soviet and Russian
+            space exploration at Baikonur, the world\'s oldest and
+            largest operational space launch facility.</item>
+        <item>There are 70 tribes in Kenya. The Kikuyu tribe is the
+            biggest with 20%% of the population.</item>
+        <item>In the last 30 years, the temperature of the water in
+            Kuwait Bay has increased by .6 degrees per decade. This is
+            three times faster than the global average rate.</item>
+        <item>The flag of Kyrgyzstan displays a tunduk (seen from
+            below), the crown of a yurt, the traditional nomadic house
+            of the Kyrgyz people.</item>
+        <item>The Plain of Jars in Laos is home to nearly thousands of
+            huge stone jars, each of which is large enough to hold a
+            person. The largest jar weighs over six tons! Estimated at
+            about 2,000 years old, the purpose of the jars along with
+            their makers is still a mystery.</item>
+        <item>Official language in Latvia is Latvian. It’s not Russian,
+            not even similar. But there are lot of Russian speaking
+            people in Latvia, that’s why the mistaken suggestion that
+            “all Latvians speak Russian” or “Latvians are Russians”.
+        </item>
+        <item>Lebanon is the country that has the most books written
+            about it.</item>
+        <item>Lesotho is the only constitutional monarchy in Africa. The
+            current king is His Majesty King Letsie III who was crowned
+            for the second time in 1996, having briefly ruled in place
+            of his father during a constitutional crisis prior to that.
+        </item>
+        <item>Liberia was one of the more stable African countries until
+            the civil war broke out in 1989, which witnessed the brutal
+            massacre of over 200,000 Liberians across seven years.
+        </item>
+        <item>The Libyan Desert covers most of Libya. It is very arid
+            and, in some places, it only rains once ever 10 or more
+            years!</item>
+        <item>Liechtenstein upholds a stance of military neutrality, and
+            remains one of the few countries in the world to not have a
+            Defense Force. Other such countries include Andorra and
+            Costa Rica.</item>
+        <item>By the end of the fourteenth century, Lithuania
+            was the
+            largest country in Europe.</item>
+        <item>Luxembourg is the least populated country in the European
+            Union, with only 465,000 inhabitants. It is also the 20th
+            smallest of all the 194 independent countries in the world.
+        </item>
+        <item>After Las Vegas, Macau is one of the biggest gambling
+            areas in the world. In fact, gambling is even legalized in
+            Macau.</item>
+        <item>Ninety percent of the plants and animals found on the
+            island of Madagascar evolved there and nowhere else.</item>
+        <item>The origin of the name Malawi remains unclear; it is held
+            to be either derived from that of southern tribes, or noting
+            the "glitter of the sun rising across the lake" (as seen in
+            its flag).</item>
+        <item>Malaysia is home to 14,500 species of flowering plants and
+            trees, more than 200 species of mammals, 600 species of
+            bids, 140 species of snakes and 60 species of lizards.
+        </item>
+        <item>In 2008 Maldives was ranked second as the best country
+            brand for natural beauty and third as best country brand for
+            resort and lodging options.</item>
+        <item>Kids in Mali only go to school for 2 years.</item>
+        <item>There are over 350 churches on the Maltese islands. Many
+            were built in the seventeenth century, making them sights to
+            behold even for non-believers. With their bell towers and
+            domes, the churches are an integral part of the Maltese
+            skyline.</item>
+        <item>It is a known fact that the Marshall Islands comprise two
+            parallel island groups. However, only a few people are aware
+            of the fact that the island groups are called the Ratak
+            Chain and the Ralik Chain. The name Ratak translates to
+            sunrise and the name Ralik translates to sunset.</item>
+        <item>Mauritania was one of the last countries in the world to
+            officially abolish slavery. It passed a law prohibiting
+            slavery in 1981. Slavery in Mauritania was mainly by
+            Mauritanian Arabs enslaving indigenous black Mauritanians.
+        </item>
+        <item>Mauritius is one of the leading tourist destinations in
+            Africa, receiving about 7000,000 visitors with some of the
+            finest beach in the Indian ocean such as Grand Bay,
+            Pereybere, Belle Mare, Blue Bay, La Morne and Tamarin and
+            Flic en Flac, Mauritius makes for an idyllic tropical
+            holiday.</item>
+        <item>The name Micronesia derives from the Greek mikros, meaning
+            small, and nesos, meaning island. The term was first
+            proposed to distinguish the region in 1831 by Jules Dumont
+            d\'Urville.</item>
+        <item>Moldova is better known for its wines. For many
+            years, the
+            general occupation of majority of people in the
+            country was
+            related to wine making and viticulture. The major and
+            well-established industry in this country is none other than
+            the wine industry. The country has vineyard area of 360,000
+            acres.</item>
+        <item>The Grimaldi family has ruled for more than 600 years
+            before Monaco officially became a sovereign state. The royal
+            family name comes from its Genoese founder, Grimaldo.</item>
+        <item>In Mongolia there are 13 times more horses than people.
+        </item>
+        <item>Montserrat is known as the Emerald Isle of the Caribbean.
+            In recent years the island has experienced extensive
+            volcanic activity and in 1995 the eruption of the Sourfriere
+            Hills volcano forced mass exodus from Montserrat.</item>
+        <item>Morocco is situated in North Africa and it is the only
+            African country that is presently not a member of the
+            ‘African Union’.</item>
+        <item>In 2002, a severe drought hit many central and southern
+            parts of the country, including previously flood-stricken
+            areas. Poverty remains widespread, with more than 50%% of
+            Mozambicans living on less than $1 a day.</item>
+        <item>The capital of Namibia is Windhoek. The name Windhoek is
+            of Dutch origin meaning \'corner of wind\'. Windhoek is
+            located on Namibia central high plateau region.</item>
+        <item>Nauru has no capital and is the world\'s only independent
+            republic not to have one. Yaren is the island\'s largest
+            city with about 1,200 people.</item>
+        <item>There are eight peaks with a total of 19 points above 8000
+            metres in Nepal.</item>
+        <item>The nickel boom in the 1960\'s helped New Caledonia grow
+            very rapidly. New Caledonia also has 25%% of the world\'s
+            nickel reserves, most of which is traded with France and
+            Japan.</item>
+        <item>Nicaragua is larger then Ireland and Portugal put
+            together.</item>
+        <item>Niger obtained its independence from France in 1960 after
+            50 years of rule. Niger has continued to rely heavily on
+            France for economic support.</item>
+        <item>Niue, one of the world\'s largest coral atolls, is
+            approximately 1500 miles northeast of New Zealand.</item>
+        <item>In North Korea you can’t turn off the government radio
+            installed in your home, only reduce the volume.</item>
+        <item>In the past, Oman used to be one of the richest countries
+            in the world, with the wealth mainly originating from the
+            incense trade.</item>
+        <item>Pakistan has the second largest Muslim population in the
+            world. It is second to Indonesia.</item>
+        <item>Even though shirts and other forms of clothing are widely
+            used in the islands, the traditional local women still go
+            topless inside their homes - some do so around their
+            village.</item>
+        <item>There are more than 800 different languages spoken in
+            Papua New Guinea</item>
+        <item>Paraguay got it’s independence in 1811, may the 14th.
+            Before it was colonized by the Spanish, the land was ruled
+            by an old tribe, which called it self, the Guarani.</item>
+        <item>The Philippines is the world\'s 3rd largest
+            English-speaking nation, next to the USA and the UK.</item>
+        <item>Puerto Rico, also known as the \'Island of Enchantment\'
+            comprises an archipelago that includes the main Puerto Rico
+            island and other small islands. The Puerto Rico archipelago
+            is 100 miles long by 35 miles wide and is inhabited with
+            over 3.9 million people.</item>
+        <item>Sheikh Hamad bin Khalifa Al Thani is the current ruling
+            Emir of the State of Qatar. According to Forbes, he became
+            ruler in 1995 after ousting his father in a bloodless coup,
+            and is worth an estimated $2 billion.</item>
+        <item>Rwanda is the most densely populated country in Africa.
+        </item>
+        <item>Saint Helena named after St Helena of Constantinople, is
+            an island of volcanic origin in the South Atlantic Ocean. he
+            British used the island as a place of exile, most notably
+            for Napoleon I, Dinuzulu kaCetshwayo and more than 5,000
+            Boer prisoners.</item>
+        <item>Saint Kitts and Nevis is the smallest sovereign state in
+            the Americas, in both area and population.</item>
+        <item>St. Lucia is an island state located in the Caribbean Sea.
+            The island was formed as the result of volcanic activity and
+            is just 27 miles long and 14 miles across at the point of
+            maximum width.</item>
+        <item>As a part of the Netherlands Antilles and the Kingdom of
+            the Netherlands, St. Maarten boasts 77 different
+            nationalities.</item>
+        <item>Saint Pierre and Miquelon is a group of small French
+            islands in the North Atlantic Ocean, the main islands being
+            Saint Pierre and Miquelon, south of the Canadian province of
+            Newfoundland and Labrador.</item>
+        <item>The tourism industry has won St. Vincent and the
+            Grenadines the Best Sailing &amp; Yachting Island of The
+            Year award for the year 2009.</item>
+        <item>Samoans are known throughout Polynesia as the "happy
+            people" because of their enjoyment of life and their
+            good-spirited nature.</item>
+        <item>San Marino is the world\'s oldest republic. According to
+            tradition, it was founded by a Christian stonemason named
+            Marino in 301 A.D.</item>
+        <item>Sao Tome and Principe is Africas smallest state and
+            situated in the gulf of Guinea in western Africa.</item>
+        <item>Seychelles granite islands are the oldest islands in the
+            world. They are different from Mauritius and Reunion
+            Islands. The latter are volcanic while Seychelles is made of
+            ancient granite.</item>
+        <item>On February 14, 1972, Sierra Leone made headlines when the
+            world\'s third-largest gem-quality diamond – called the
+            "Star of Sierra Leone" – was discovered in Koidu.</item>
+        <item>Symbolism of the National Flag: Red symbolizes universal
+            brotherhood and equality of man while white signifies purity
+            and virtue. The crescent moon represents a young nation on
+            the rise and the five stars signify the ideals of democracy,
+            peace, progress, justice and equality.</item>
+        <item>90%% of Slovaks have completed at least secondary
+            education - the highest score in the EU (along with Poles,
+            Czechs, and Slovenes).</item>
+        <item>The Slovenian language is one of the most archaic
+            languages in Europe and in the world. It is the only EU
+            official language which has the Dual. In addition, it has
+            the most dialects given the number of inhabitants.</item>
+        <item>The Solomon Islands are a remote and unspoilt travel
+            destination, with a slowly developing tourist industry. The
+            superb marine life in the surrounding waters makes the
+            islands an excellent destination for diving</item>
+        <item>Somalia has one of the lowest HIV infection rates in
+            Africa, but close to 35%% of all children born in Somalia
+            die before they are five years old due to disease and
+            dehydration.</item>
+        <item>South Africa is the second largest exporter of fruit in
+            the world.</item>
+        <item>South Georgia is a remote and inhospitable collection of
+            islands, consisting of South Georgia and a chain of smaller
+            islands, the South Sandwich Islands.</item>
+        <item>The Sri Lankan flag is the only one in the world to
+            recognize different religious groups. The yellow border and
+            pipul leaves symbolise Buddhism which is the main religion
+            in the country. As well as this the green and saffron bands
+            represent the country’s Muslim and Hindu Tamil communities.
+        </item>
+        <item>A girl born in southern Sudan has a better chance of dying
+            during pregnancy or childbirth than of completing primary
+            school.</item>
+        <item>Suriname is the smallest sovereign state in South America.
+            The former name of Suriname is Nederland Guyana or
+            Netherlands Guiana or Dutch Guiana.</item>
+        <item>Polygamy is an accepted part of Swaziland\'s tradition and
+            is still legal (but very rarely practiced today).</item>
+        <item>Taiwan is sometimes called “Ilha Formosa,” which means
+            “beautiful island” in Portuguese. Portuguese sailors gave
+            Taiwan this name in the sixteenth century.</item>
+        <item>The civil war in Tajikistan began in 1992 with protesters
+            who were against the presidential elections and who felt
+            they were not fairly represented in the country. On June 26,
+            1997, the two sides came to an agreement and a peace accord
+            was signed, ending the fighting. Over 50,000 were estimated
+            to have been killed during the war.</item>
+        <item>One in ten Tanzanians is living with HIV/AIDS. The crisis
+            has left nearly 1 million children orphaned.</item>
+        <item>The Orchid is Thailand’s best flowering export. Exports of
+            the Orchid are valued at US$250million per annum.</item>
+        <item>According to the Constitution of the Democratic Republic
+            of Timor Leste, the yellow triangle represents "the traces
+            of colonialism in East Timor\'s History"; the black triangle
+            represents "the obscurantism that needs to be overcome"; the
+            red base of the flag represents "the struggle for national
+            liberation"; whilst the star, or "the light that guides", is
+            white to represent peace.</item>
+        <item>5.5 million people live in Togo. Life expectancy is around
+            57 years. Birth rate is on average 5 children per woman.
+            Literacy rate is just over 60%%.</item>
+        <item>Tonga is an archipelago of 172 islands in the South
+            Pacific, most of which are uninhabited, covering an area of
+            7700 sq km (3000 sq miles).</item>
+        <item>Tobago was the location of the book "Robinson Crusoe" by
+            Daniel Defoe, and is also believed to be the place Robert
+            Louis Stevenson had in mind when he wrote Treasure Island.
+        </item>
+        <item>Tunisia has served as a popular location for some of
+            Hollywood\'s biggest films, among which include Star wars,
+            Jesus of Nazareth, The English Patient and Raiders of the
+            Lost Ark.</item>
+        <item>Turkmenistan possesses the world\'s fourth largest
+            reserves of natural gas resources. Although it is wealthy in
+            natural resources in certain areas, most of the country is
+            covered by the Karakum (Black Sand) Desert.</item>
+        <item>Tuvalu formerly known as the Ellice Islands, is a
+            Polynesian island nation located in the Pacific Ocean,
+            midway between Hawaii and Australia. Its nearest neighbors
+            are Kiribati, Nauru, Samoa and Fiji. It comprises four reef
+            islands and five true atolls.</item>
+        <item>About half the population in Uganda live on less that
+            US$1.25 per day.</item>
+        <item>The United Arab Emirates consists of seven states, termed
+            emirates (because they are ruled by emirs), which are Abu
+            Dhabi, Ajman, Dubai, Fujairah, Ras al-Khaimah, Sharjah and
+            Umm al-Quwain.</item>
+        <item>The largest note in Uzbekistan is 1000 sym, which is worth
+            about 0.60 EUR. Changing foreign currency inevitably leaves
+            you with impressive stacks of notes to carry around, making
+            wallets all but useless.</item>
+        <item>Vanuatu is one of the most diverse countries in the world.
+            The word "Vanuatu" means \'Land Eternal\', so apt for this
+            beautiful, unspoilt paradise.</item>
+        <item>Venezuela has had more Miss Universes and Miss Worlds than
+            any other country.</item>
+        <item>Vietnam is shaped like a narrow \'S\'. Even though Vietnam
+            is 1,650 kilometers (1,031 miles) from north to south, the
+            country gets as narrow as 50 kilometers (31 miles) across.
+        </item>
+        <item>Tourism is Virgin Islands\' primary industry in the
+            islands in terms of both economics and employment. There are
+            over 2 million visitors per year.</item>
+        <item>Yemen\'s border countries are Saudi Arabia and Oman. A
+            short stretch of sea separates it from Djibouti. The
+            country\'s population is roughly about 21 million.</item>
+        <item>Just over 11 million people live in Zambia. Life
+            expectancy is around 39 years. Birth rate is on average 5.47
+            per woman. 16.5%% of the population is believed to have
+            HIV/AIDS.</item>
+        <item>The name Zimbabwe derives from “Dzimba dza mabwe,” meaning
+            “great houses of stone” in the Shona language.</item>
+    </string-array>
+</resources>

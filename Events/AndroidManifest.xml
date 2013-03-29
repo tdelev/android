@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.feit.events"
+    android:versionCode="2"
+    android:versionName="1.0">
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.ACCESS_MOCK_LOCATION"></uses-permission>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/EventsTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Authenticate" android:label="@string/app_name">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.VIEW" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <category
+                    android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="events-android-app" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EventDetails">
+            <intent-filter>
+                <action
+                    android:name="org.feit.events.action.DETAILS" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Friends"
+            android:label="@string/friends">
+            <intent-filter>
+                <action
+                    android:name="org.feit.events.action.FRIENDS" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-sdk
+        android:minSdkVersion="4" />
+
+</manifest> 

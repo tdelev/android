@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:id="@+id/title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip"
+        android:background="@drawable/top_gradient">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_marginLeft="6dip"
+            android:layout_marginTop="4dip"
+            android:text="Vicoteka"></TextView>        
+        <TextView
+            android:id="@+id/title_info"
+            android:text=""
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="4dip"
+            style="@style/TitleInfoText" />
+        <ProgressBar
+            android:id="@+id/pbTitle"
+            android:layout_toLeftOf="@id/title_info"
+            android:visibility="gone"
+            android:layout_margin="4dip"
+            android:layout_width="24dip"
+            android:layout_height="24dip"></ProgressBar>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ListView
+            android:id="@+id/jokes_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textFilterEnabled="true"
+            android:layout_weight="1"
+            android:cacheColorHint="#00000000">
+        </ListView>
+        <ListView
+            android:id="@+id/categories_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textFilterEnabled="true"
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:cacheColorHint="#00000000">
+        </ListView>
+        <ListView
+            android:id="@+id/favorites_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textFilterEnabled="true"
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:cacheColorHint="#00000000">
+
+        </ListView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tabs"
+        android:layout_width="fill_parent"
+        android:layout_weight="0"
+        android:layout_height="wrap_content">
+        
+        <ToggleButton
+            android:id="@+id/tbFavorites"
+            android:onClick="onChangeView"
+            style="@style/FavoritesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" />
+        <ToggleButton
+            android:text="@string/jokes"
+            android:id="@+id/tbJokes"
+            android:onClick="onChangeView"
+            android:checked="true"
+            style="@style/JokesButton"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" />
+        <ToggleButton
+            android:text="@string/categories"
+            android:id="@+id/tbCategories"
+            android:onClick="onChangeView"
+            style="@style/CategoriesButton"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

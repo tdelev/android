@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:background="#333"
+        android:id="@+id/list_header"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip">
+        <ImageView
+            android:id="@+id/ivWifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageView>
+        <TextView
+            android:id="@+id/shared_list_name"
+            style="@style/ListHeaderText"
+            android:layout_marginLeft="5dip"
+            android:text="@string/shared_list_name"
+            android:layout_toRightOf="@+id/ivWifi" />
+        <ImageView
+            android:src="@drawable/line"
+            android:layout_below="@+id/ivWifi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/intents_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_header"
+        android:cacheColorHint="#00000000">
+    </ListView>
+    <TextView
+        android:id="@+id/no_intents"
+        android:textSize="18sp"
+        android:text="@string/no_shared"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

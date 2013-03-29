@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Events</string>
+    <string name="title">vents</string>
+    <string name="near_by">NEAR BY</string>
+    <string name="browse">BROWSE</string>
+    <string name="search">SEARCH</string>
+    <string name="friends">Friends</string>
+    <string name="my_events">My Events</string>
+    <string name="no_events">No events found!</string>
+    <string name="event_details">vent Details</string>
+    <string name="at">at</string>
+    <string name="events_location">Determining your location...</string>
+    <string name="enable_location_provider">Enable location providers?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="set_radius">Set radius</string>
+    <string name="refresh">Refresh</string>
+    <string name="ok">OK</string>
+    <string name="network_error">Network error</string>
+    <string name="check_internet">Check your Internet</string>
+    <string name="enable_gps">Use GPS to find nearby events</string>
+    <string name="enable_gps_summary">More precise but uses more battery and needs open view to
+        the sky</string>
+    <string name="loading">Loading...</string>
+    <string name="loading_msg">Loading events, please wait...</string>
+    <string name="login">Login with Yahoo</string>
+    <string name="enter_keywords">enter keywords...</string>
+    <string name="go">Go</string>
+    <string name="name">Name</string>
+    <string name="time">Time</string>
+    <string name="venue">Venue</string>
+    <string name="name_lbl">Name:</string>
+    <string name="city">City:</string>
+    <string name="address">Address:</string>
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="description">Description</string>
+    <string name="URL">URL</string>
+    <string name="radius">Radius in MI</string>
+
+</resources>

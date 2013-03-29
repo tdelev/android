@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/wifi_on_big"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip">
+    </ImageView>
+    <TextView
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:text="@string/wifi_connected"
+        android:id="@+id/tvConnected"
+        style="@style/TextItem"></TextView>
+    <TextView
+        android:layout_below="@+id/tvConnected"
+        android:text="@string/wifi_question"
+        style="@style/TextItem"
+        android:id="@+id/tvQuestion"
+        android:gravity="center_horizontal"></TextView>
+    <Button
+        android:text="@string/share_now"
+        android:id="@+id/btnShareNow"
+        android:layout_width="140dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"></Button>
+    <Button
+        android:text="@string/share_later"
+        android:id="@+id/btnShareLater"
+        android:layout_width="140dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"></Button>
+</RelativeLayout>

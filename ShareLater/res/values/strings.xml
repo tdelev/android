@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string
+        name="app_name">Share Later</string>
+    <string
+        name="no_pending">Pending list is empty</string>
+    <string
+        name="no_shared">Shared list is empty</string>
+    <string
+        name="notification_title">pending sharing intents...</string>
+    <string
+        name="notification_text">Click to share your pending items.</string>
+    <string
+        name="active_wireless">You have active wireless connection</string>
+    <string
+        name="share_now">Share Now</string>
+    <string
+        name="share_later">Share Later</string>
+    <string
+        name="share_via">Share via</string>
+    <string
+        name="view_pending">View pending</string>
+    <string
+        name="close">Close</string>
+    <string
+        name="saving">Saving...</string>
+    <string
+        name="save_completed">Share intent successfully saved.</string>
+    <string
+        name="wifi_notification">You will be notified to share this item when active WiFi
+        connection is available.</string>
+    <string
+        name="save_intent_dialog_title">Save your sharing intent for later</string>
+    <string
+        name="intent_name">Name your sharing intent:</string>
+    <string
+        name="intent_name_hint">Sharing intent name...</string>
+    <string
+        name="save">Save</string>
+    <string
+        name="cancel">Cancel</string>
+    <string
+        name="unknown">Unknown</string>
+    <string
+        name="wifi_connected">You are already connected to WiFi access point.</string>
+    <string
+        name="wifi_question">Do you still want to save your sharing intent for later or
+        you want to share now?</string>
+    <string
+        name="pending">Pending</string>
+    <string
+        name="shared">Shared</string>
+    <string
+        name="pending_list_name">Pending sharing intents</string>
+    <string
+        name="pending_list_info">Click on the list item to share</string>
+    <string
+        name="shared_list_name">Already shared items</string>
+    <string
+        name="shared_list_info">Click on the list item to share again</string>
+    <string
+        name="disconnected_dialog_title">No active wireless connection!</string>
+    <string
+        name="disconnected_dialog_msg">Do you still want to view and share pending intents?
+    </string>
+    <string
+        name="yes">Yes</string>
+    <string
+        name="no">No</string>
+    <string
+        name="settings">Settings</string>
+    <string
+        name="clear_all">Clear all</string>
+    <string
+        name="share">Share</string>
+    <string
+        name="view">View</string>
+    <string
+        name="today">Today</string>
+    <string
+        name="yesterday">Yesterday</string>
+    <string
+        name="delete">Delete</string>
+    <string
+        name="at">at</string>
+    <string
+        name="notification_settings_title">
+        Enable notifications</string>
+    <string
+        name="notification_summary">Notify me for pending sharing intents when WiFi is
+        connected</string>
+</resources>

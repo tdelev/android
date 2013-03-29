@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:background="@android:drawable/alert_light_frame">
+	<TableRow>
+		<Button android:layout_height="wrap_content"
+			android:layout_weight="1" android:id="@+id/one" android:text="One"
+			android:minWidth="100dip" android:minHeight="60dip" />
+		<Button android:layout_height="wrap_content"
+			android:layout_weight="1" android:id="@+id/two" android:text="Two"
+			android:minWidth="100dip" android:minHeight="60dip" />
+		<Button android:layout_height="wrap_content"
+			android:layout_weight="1" android:id="@+id/three" android:text="Three"
+			android:minWidth="100dip" android:minHeight="60dip" />
+	</TableRow>
+</TableLayout>

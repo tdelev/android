@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SFIDA MATEMATICA</string>
+    <string name="time_mode">Mettiti alla prova!</string>
+    <string name="submit">Invia il punteggio</string>
+    <string name="high_scores">Classifiche</string>
+    <string name="scoreloop">Classifica mondiale</string>
+    <string name="retry">Riprova</string>
+    <string name="game_over">Fine del gioco</string>
+    <string name="name">Nome:</string>
+    <string name="enter_name">Scrivi il tuo nome...</string>
+    <string name="new_high_score">Nuovo record!</string>
+    <string name="save">Salva</string>
+    <string name="cancel">Cancella</string>
+    <string name="unknown">John Doe</string>
+    <string name="start_new_game">Vuoi davvero ricominciare? </string>
+    <string name="leave_game">Vuoi veramente uscire dal gioco? </string>
+    <string name="no_high_scores">Nessun punteggio presente</string>
+    <string name="starting">Pronto?...</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    
+     <!-- Rate game-->  
+    <string name="Rate.App.Msg">Vuoi votare l\'app sul market?</string>
+ 	<string name="Rate.App">Votaci</string>
+ 	<string name="Rate.App.Later">Un\'altra volta</string>
+ 	
+</resources>

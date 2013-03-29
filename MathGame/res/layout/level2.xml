@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.at.math"
+    android:background="@drawable/bg_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextSwitcher
+        android:id="@+id/tsPoints"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="16dip"
+        android:layout_marginLeft="8dip"
+        android:layout_alignParentLeft="true"
+        android:inAnimation="@anim/fade_in"
+        android:outAnimation="@anim/fade_out"
+        android:layout_weight="0">
+        <TextView
+            android:id="@+id/tvP1"
+            style="@style/TopText"></TextView>
+        <TextView
+            android:id="@+id/tvP2"
+            style="@style/TopText"></TextView>
+    </TextSwitcher>
+    <TextSwitcher
+        android:id="@+id/tsCombo"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="16dip"
+        android:layout_marginRight="8dip"
+        android:layout_alignParentRight="true"
+        android:inAnimation="@anim/push_top_in"
+        android:outAnimation="@anim/push_right_out"
+        android:layout_weight="0">
+        <TextView
+            android:id="@+id/tvC1"
+            style="@style/TopTextInfo"></TextView>
+        <TextView
+            android:id="@+id/tvC2"
+            style="@style/TopTextInfo"></TextView>
+    </TextSwitcher>
+    <com.at.math.TimerPieView
+        android:id="@+id/timerPie"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_marginTop="8dip"
+        android:layout_marginRight="10dip"
+        android:layout_centerHorizontal="true">
+    </com.at.math.TimerPieView>
+    <TextView
+        android:id="@+id/tvTime"
+        style="@style/TopTextTime"
+        android:layout_toRightOf="@id/timerPie"
+        android:layout_marginTop="16dip"></TextView>
+    <TextSwitcher
+        android:id="@+id/tsBonusTime"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="16dip"
+        android:layout_marginRight="6dip"
+        android:layout_toLeftOf="@id/timerPie"
+        android:inAnimation="@anim/push_top_in"
+        android:outAnimation="@anim/push_top_out"
+        android:layout_weight="0">
+        <TextView
+            android:id="@+id/tvBT1"
+            style="@style/TopText"></TextView>
+        <TextView
+            android:id="@+id/tvBT2"
+            style="@style/TopText"></TextView>
+    </TextSwitcher>
+
+    <TextSwitcher
+        android:id="@+id/tsExpression"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="100dip"
+        android:layout_marginLeft="32dip"
+        android:layout_alignParentLeft="true"
+        android:inAnimation="@anim/fade_in"
+        android:outAnimation="@anim/fade_out"
+        android:layout_weight="0">
+        <TextView
+            android:id="@+id/tvExp1"
+            style="@style/ExpressionText"></TextView>
+        <TextView
+            android:id="@+id/tvExp2"
+            style="@style/ExpressionText"></TextView>
+    </TextSwitcher>
+    
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="64dip"
+        android:layout_marginRight="8dip"
+        android:id="@+id/ivResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ImageView>
+
+
+    <!-- ADMOB  -->
+    <com.admob.android.ads.AdView
+        android:id="@+id/adFrame"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:backgroundColor="#000000"
+        app:textColor="#FFFFFF"
+        app:keywords="math practice kids challenge"
+        app:refreshInterval="20"
+        app:isGoneWithoutAd="true" />
+
+    <include
+        android:id="@+id/numPad"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/adFrame"
+        layout="@layout/num_pad_operators" />
+
+</RelativeLayout>
